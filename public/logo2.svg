@@ -1,0 +1,45 @@
+<svg width="680" height="340" viewBox="0 0 680 340" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>HungerBox Logo</title>
+  <desc>HungerBox food delivery brand logo on dark background</desc>
+
+  <!-- Dark background -->
+  <rect width="680" height="340" fill="#1A1A1A" rx="16"/>
+
+  <!-- Box shape (delivery box) -->
+  <g transform="translate(220, 80)">
+    <!-- Box body -->
+    <rect x="0" y="40" width="100" height="80" rx="6" fill="#FF6B2B"/>
+    <!-- Box lid left flap -->
+    <polygon points="0,40 48,40 48,10 0,18" fill="#E85520"/>
+    <!-- Box lid right flap -->
+    <polygon points="52,40 100,40 100,18 52,10" fill="#E85520"/>
+    <!-- Box lid center flap -->
+    <rect x="22" y="8" width="56" height="34" rx="4" fill="#FF6B2B"/>
+    <!-- Steam lines -->
+    <path d="M30 6 Q34 0 30 -6" stroke="#FF9A6C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M50 4 Q54 -2 50 -8" stroke="#FF9A6C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M70 6 Q74 0 70 -6" stroke="#FF9A6C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Fork and knife inside box -->
+    <line x1="40" y1="52" x2="40" y2="76" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <path d="M36 52 Q36 58 40 60" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M44 52 Q44 58 40 60" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <line x1="60" y1="52" x2="60" y2="76" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <path d="M56 52 L56 58 Q56 62 60 62 Q64 62 64 58 L64 52" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Box tape/stripe -->
+    <rect x="45" y="40" width="10" height="80" fill="#E85520" opacity="0.5"/>
+  </g>
+
+  <!-- Brand name -->
+  <text x="340" y="158" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="1" fill="white">HUNGER</text>
+  <text x="340" y="204" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="1" fill="#FF6B2B">BOX</text>
+
+  <!-- Tagline -->
+  <text x="340" y="238" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" letter-spacing="3" fill="#888888">ORDER · DELIVER · ENJOY</text>
+
+  <!-- Decorative line under tagline -->
+  <line x1="260" y1="250" x2="420" y2="250" stroke="#FF6B2B" stroke-width="1" opacity="0.6"/>
+
+  <!-- Small dot accents -->
+  <circle cx="252" cy="250" r="3" fill="#FF6B2B"/>
+  <circle cx="428" cy="250" r="3" fill="#FF6B2B"/>
+</svg>
