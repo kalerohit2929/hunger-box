@@ -3,8 +3,8 @@ import { useState } from "react";
 // import RestaurantLogin from "../_components/RestaurantLogin";
 // import RestaurantSignUp from "../_components/RestaurantSignUp";
 // Correct
-import RestaurantLogin from "../_components/restaurantLogin"
-import RestaurantSignUp from "../_components/restaurantSignUp"
+import RestaurantLogin from "../_components/RestaurantLogin"
+import RestaurantSignUp from "../_components/RestaurantSignUp"
 import RestaurantHeader from "../_components/RestaurantHeader";
 import Footer from "../_components/Footer";
 import './style.css'
