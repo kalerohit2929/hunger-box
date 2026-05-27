@@ -9,10 +9,20 @@ import { useRouter } from "next/navigation"
 
 const Page = () => {
 
-    const [cartStorage, setCartStorage] = useState(JSON.parse(localStorage.getItem('cart')))
-    const [total]=useState(()=>cartStorage.length==1?cartStorage[0].price:cartStorage.reduce((a,b)=>{
-return a.price+b.price
-    }))
+    // const [cartStorage, setCartStorage] = useState(JSON.parse(localStorage.getItem('cart')))
+    const [cartStorage, setCartStorage] = useState(() => {
+    if (typeof window === "undefined") return []
+    return JSON.parse(localStorage.getItem('cart')) || []
+})
+//     const [total]=useState(()=>cartStorage.length==1?cartStorage[0].price:cartStorage.reduce((a,b)=>{
+// return a.price+b.price
+//     }))
+// Replace with this
+const [total] = useState(() => {
+    if (cartStorage.length === 0) return 0
+    if (cartStorage.length === 1) return cartStorage[0].price
+    return cartStorage.reduce((a, b) => a + b.price, 0)
+})
     const router = useRouter()
     console.log(total);
 
